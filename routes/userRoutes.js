@@ -37,5 +37,8 @@ router.post('/login', async (req, res) => {
 router.get("/",(req,res)=>{
   return res.send("Hello")
 })
+router.get("/hi",(req,res)=>{
+  return res.send("Hi")
+})
 
 export default router
